@@ -8,7 +8,69 @@
     <link rel="icon" type="image/png" href="Images/Logo.png" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <h2>I'm Michael Noh</h2>
+    <main>
+      <h1 id="Top">Hello! I'm Michael.</h1>
+      <span>I'm a student from South Korea, who codes.</span>
+      <figure>
+        <img src="Images/SKFlag.png" alt="The South Korean Flag" />
+        <figcaption>
+          <b>The South Korean Flag</b>
+          <details>
+            <summary>Learn more!</summary>
+            <a href="https://en.wikipedia.org/wiki/South_Korea">Click here</a>
+          </details>
+        </figcaption>
+      </figure>
+    </main>
+    <article>
+      <h2 id="AboutMe">About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+        eligendi, soluta quisquam aspernatur distinctio architecto perferendis
+        officiis beatae quas fuga quae commodi molestiae ullam incidunt maiores
+        nobis? Dolores, laboriosam error!
+      </p>
+      <ol>
+        <li>Dogs</li>
+        <li>Rice</li>
+        <li>Computers</li>
+      </ol>
+      <img src="Images/Dog.jpg" width="30%" alt="Dog" />
+    </article>
+    <br />
+    <article>
+      <h2 id="WhatI'veDone">What I've Done</h2>
+      <ul>
+        <li>Piano</li>
+        <li>Java</li>
+        <li>Writing</li>
+      </ul>
+      <figure>
+        <span><u>An Example Code:</u></span>
+        <pre>
+          <code>
+ public class Main {
+  static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+  static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+  static StringTokenizer st;
+            
+  public static void main(String[] argv) throws IOException {
+        st = new StringTokenizer(bf.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+  }
+}
+        </code>
+      </pre>
+      </figure>
+      <img src="Images/Music.png" width="30%" alt="Musical Notaion Graphic" />
+    </article>
+    <footer>
+      <ul>
+        <li><a href="#top">Go to top</a></li>
+        <li><a href="#AboutMe">About me</a></li>
+        <li><a href="#WhatI'veDone">What I've done</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
